@@ -39,7 +39,7 @@ define(["N/record", "N/search", "N/log", "N/runtime"], function (
         //set custom field timestamp
         poRecord.setValue({
           fieldId: "custbody_auto_close_date",
-          value: true,
+          value: new Date(),
         });
       }
     } catch (e) {
